@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title></title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+  <div class="content">
+    <h1>Students grade calculator</h1>
+
+
+    <div class="container">
+      
+      <div class="row">
+         <div class="col-sm-4 red">
+              <h2>your percentage is :</h2>
+              <h3 id="percentage"></h3>
+              <h2>your grade is :</h2>
+              <h3 id="grade"></h3>
+         </div>
+
+       <div class="col-sm-8 blue">
+          <h1>Enter Your Marks</h1>
+            <div class="form-group">
+              <input type="text" class="form-control" id="maths"  placeholder="Math" >
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="pythics" placeholder="Pythics">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="chemistry" placeholder="Chemistry">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="english" placeholder="English">
+            </div>
+            
+            <button type="submit" onclick="getmarks()" class="btn btn-primary">Submit</button>
+          
+         </div>
+      </div>
+        <div class="row">
+          <div class="col-sm-12 white">
+            <h3 id="pass"></h3>
+          </div>
+        </div>
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+   
+
+    
+</body>
+
+</html>
